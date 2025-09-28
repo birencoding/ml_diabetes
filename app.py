@@ -1,6 +1,27 @@
 import pickle
 import streamlit as st
 
+# Inject CSS for orange button
+st.markdown(
+    """
+    <style>
+    div.stButton > button:first-child {
+        background-color: #066B69;
+        color: white;
+        height: 3em;
+        width: 250px;
+        border-radius: 10px;
+        border: none;
+        font-size: 16px;
+    }
+    div.stButton > button:first-child:hover {
+        background-color: #177C71;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # loading the saved models
 
