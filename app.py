@@ -39,7 +39,6 @@ with col1:
     max_value=20,
     value=0,
     step=1,
-    placeholder="Enter a number between 0 and 20",
     help="Number of times the patient has been pregnant (0–20). Higher values can increase diabetes risk."
 )
     
@@ -49,7 +48,6 @@ with col2:
     max_value=300,
     value=0,
     step=1,
-    placeholder="Enter a number between 0 and 300",
     help="Plasma glucose concentration (mg/dL) after 2 hours in an oral glucose tolerance test. "
              "Normal: <140, Prediabetes: 140–199, Diabetes: ≥200."
              )
@@ -60,7 +58,6 @@ with col3:
     max_value=200,
     value=0,
     step=1,
-    placeholder="Enter a number between 0 and 200",
     help="Diastolic blood pressure (mm Hg). "
         "Normal: <80, Prehypertension: 80–89, Hypertension: ≥90.")
 
@@ -70,7 +67,6 @@ with col1:
     max_value=100,
     value=0,
     step=1,
-    placeholder="Enter a number between 0 and 100",
     help="Triceps skinfold thickness (mm). Used as an estimate of body fat. "
              "Typical range in dataset: 10–50 mm.")
 
@@ -80,7 +76,6 @@ with col2:
     max_value=1000,
     value=0,
     step=1,
-    placeholder="Enter a number between 0 and 1000",
     help="2-hour serum insulin (µU/mL). "
              "Normal fasting: 16–166, higher values may indicate insulin resistance.")
 
@@ -90,7 +85,6 @@ with col3:
     max_value=100.0,
     value=0.0,
     step=.1,
-    placeholder="Enter a number between 0 and 100",
     help="Body Mass Index (BMI) = weight (kg) / height² (m²). Normal: 18.5–24.9")
     
 
@@ -100,7 +94,6 @@ with col1:
     max_value=2.5,
     value=0.00,
     step=.01,
-    placeholder="Enter a number between 0 and 2.5",
     help="Diabetes Pedigree Function (0.0–2.5). "
      "Values around 0.5 are typical. "
      "Higher values (>1.0) indicate stronger family history influence on diabetes risk.")
@@ -111,7 +104,6 @@ with col2:
     max_value=120,
     value=1,
     step=1,
-    placeholder="Enter a number between 1 and 120",
     help="Age bracket (1–120) ")
 
 
