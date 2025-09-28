@@ -16,7 +16,7 @@ with col1:
     Pregnancies = st.text_input("Number of Pregnancies",
     min_value=1,
     max_value=20,
-    value=None,          # so it starts empty
+    value=None,
     placeholder="Enter a number between 1 and 20")
     
 with col2:
