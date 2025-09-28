@@ -13,7 +13,11 @@ st.title('Diabetes Prediction using ML')
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    Pregnancies = st.text_input('Number of Pregnancies')
+    Pregnancies = st.text_input("Number of Pregnancies",
+    min_value=1,
+    max_value=20,
+    value=None,          # so it starts empty
+    placeholder="Enter a number between 1 and 20")
     
 with col2:
     Glucose = st.text_input('Glucose Level')
